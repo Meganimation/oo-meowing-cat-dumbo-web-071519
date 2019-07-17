@@ -1,7 +1,7 @@
 ## code your solution here. 
 
 class Cat 
-    def name=(cat_name)
+    
       attr_accessor :cat_name
     
       attr_accessor :cat_sound
