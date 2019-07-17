@@ -14,7 +14,6 @@ end
   
   
   maru = Cat.new
-  maru.cat_name = "Maru"
-  maru.cat_sound = "meow!"
+
   
   
