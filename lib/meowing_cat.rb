@@ -2,11 +2,11 @@
 
 class Cat 
     def name=(cat_name)
-      attr_accessor :name
+      attr_accessor :cat_name
     end 
     
     def meow=(cat_sound)
-      attr_accessor :sound
+      attr_accessor :cat_sound
     end
 end
     
@@ -14,7 +14,7 @@ end
   
   
   maru = Cat.new
-  maru.name = "Maru"
-  maru.sound = "meow!"
+  maru.cat_name = "Maru"
+  maru.cat_sound = "meow!"
   
   
