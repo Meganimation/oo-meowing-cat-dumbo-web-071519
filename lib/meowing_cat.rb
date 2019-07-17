@@ -2,9 +2,9 @@
 
 class Cat 
     
-      attr_accessor :cat_name
+      attr_accessor :name
     
-      attr_accessor :cat_sound
+      attr_accessor :sound
     
 end
     
@@ -12,9 +12,9 @@ end
   
   
   maru = Cat.new
-  maru.cat_name = "Maru"
-  maru.cat_sound = "meow!"
+  maru.name = "Maru"
+  maru.sound = "meow!"
   
-  puts maru.cat_name
-  puts maru.cat_sound
+  puts maru.name
+  puts maru.sound
   
