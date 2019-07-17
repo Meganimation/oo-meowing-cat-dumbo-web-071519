@@ -2,11 +2,11 @@
 
 class Cat 
     def name=(cat_name)
-      attr_accessor: @name
+      attr_accessor: :name
     end 
     
     def meow=(cat_sound)
-      attr_accessor: @sound
+      attr_accessor: :sound
     end
 end
     
