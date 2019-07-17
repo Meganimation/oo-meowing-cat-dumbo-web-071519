@@ -5,7 +5,7 @@ class Cat
       attr_accessor :cat_name
     
       attr_accessor :cat_sound
-    end
+    
 end
     
   
