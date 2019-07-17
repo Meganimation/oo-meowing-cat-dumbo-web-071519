@@ -2,9 +2,7 @@
 
 class Cat 
     
-      attr_accessor :name
-    
-      attr_accessor :sound
+      attr_accessor :name, :sound
     
 end
     
