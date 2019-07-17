@@ -2,16 +2,18 @@
 
 class Cat 
     def name=(cat_name)
-      @this_cats_name = cat_name
+      attr_accessor: @name
     end 
     
-    def name 
-      @this_dogs_name
+    def meow=(cat_sound)
+      attr_accessor: @sound
     end
-  end 
+end
+    
   
   
-  lassie = Dog.new
-  lassie.name = "Lassie"
-   
-  puts lassie.name
+  
+  maru = Cat.new
+  maru.name = "Maru"
+  
+  
