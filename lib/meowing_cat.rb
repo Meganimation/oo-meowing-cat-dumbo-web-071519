@@ -16,3 +16,4 @@ end
   puts maru.name
   puts maru.meow
   
+ 
