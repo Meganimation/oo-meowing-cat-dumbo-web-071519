@@ -11,8 +11,8 @@ end
   
   maru = Cat.new
   maru.name = "Maru"
-  Cat.meow = "meow!"
+  maru.meow = "meow!"
   
   puts maru.name
-  puts Cat.meow
+  puts maru.meow
   
